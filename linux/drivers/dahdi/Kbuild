@@ -97,7 +97,7 @@ endif
 
 $(obj)/pciradio.o: $(obj)/radfw.h
 
-hostprogs-y := makefw
+hostprogs := makefw
 
 
 $(obj)/radfw.h: $(src)/pciradio.rbt $(obj)/makefw
